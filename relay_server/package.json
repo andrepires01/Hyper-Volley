@@ -1,0 +1,16 @@
+{
+  "name": "hyper-volley-relay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pairs Hyper Volley players by room code and relays their messages.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
